@@ -10,4 +10,4 @@ def hello_world_n(N):
 	Hello World! ... Hello World!" with exactly N 
 	repetitions.'''
 	TMP = "Hello World! "
-	return TMP*N[:-1]
+	return (TMP*N)[:-1]
